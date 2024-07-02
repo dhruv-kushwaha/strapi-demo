@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demo_apps",
+  "info": {
+    "singularName": "demo-app",
+    "pluralName": "demo-apps",
+    "displayName": "demo-app",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nav_title": {
+      "type": "string",
+      "required": true,
+      "default": "Industry Experts"
+    },
+    "nav_description": {
+      "type": "text"
+    }
+  }
+}
